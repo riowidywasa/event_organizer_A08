@@ -1,0 +1,111 @@
+@media all and (max-width: 1000px) {
+
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
+  
+  
+  
+    footer {
+      height: 550px;
+    }
+  
+    .desc {
+      width: 380px;
+    }
+  
+    .header-right {
+      float: left;
+      margin-left: 25px;
+    }
+  
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    }
+  
+    span.menu-icon {
+      display: block;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .facebook {
+      margin-bottom: 10px;
+    }
+  
+    .top-wrapper {
+      text-align: left;
+    }
+  
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+   
+  
+    footer {
+      height: 700px;
+      text-align: left;
+      width: 100%;
+      background-color: rgba(34, 49, 52, 0.9);
+    }
+  
+    footer img {
+      width: 220px;
+      height: 100px;
+      margin-left: 50px;
+    }
+  
+    .header-left p {
+      float: left;
+    }
+  
+    .desc {
+      margin-top: 140px;
+      text-align: left;
+      line-height: 20px;
+      width: 100%;
+    }
+  
+    .header-left a {
+      width: 100%;
+      line-height: 30px;
+    }
+  
+    .btnn-wrapper {
+      margin-top: 20px;
+      margin-left: 35px;
+    }
+  
+    .header-right {
+      float: left;
+    }
+
+    .main-column {
+        width: 100%;
+        display: block;
+      }
+  
+
+.table, .container {
+    width:100%;
+    margin-top:0;
+    
+}
+  }
