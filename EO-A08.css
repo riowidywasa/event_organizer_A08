@@ -14,7 +14,7 @@
   
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(media/background-top.jpeg);
+    background-image: url(background-top.jpeg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -251,7 +251,7 @@
   
    /* Main EVENT Style */
    .main{
-       background-image: url(media/4853433.jpg);
+       background-image: url(4853433.jpg);
    }
 
    .desc-title{
