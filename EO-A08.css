@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,div {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(media/background-top.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  header {
+    height: 105px;
+    width: 100%;
+    background-color:#644626;
+    position :fixed;
+    opacity: 0.8;
+    z-index: 10;
+  }
+  
+  .logo {
+    color: #fff;
+    width: 84px;
+    margin-top: 20px;
+    height: 70px;
+    font-size: 36px;
+    z-index: 10;
+    top: 0;
+    opacity: 0.8;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  
+  .section-title {
+    font-size: 15px;
+    border-bottom: 2px solid #dee7ec;
+  }
+  
+  .message-wrapper {
+    padding: 40px 30px 40px 30px;
+    background-color: #b3aeb5;
+    
+  }
+  
+  input {
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+  
+  }
+  textarea {
+    height: 80px;
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+  
+  }
+  
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+    opacity: 0.7;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .contact-submit:hover {
+    background-color: rgba(34, 49, 52, 0.9);
+    color: white;
+    opacity: 1;
+    border-radius: 10px;
+  }
+  
+  
+  footer{
+      background-color: rgba(34, 49, 52, 0.9);
+      height: 280px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      width: 100%;
+  }
+  .logoo {
+      width: 250px;
+      height:120px;
+      margin-right: 25px;
+      text-align: right;
+      margin-bottom: 20px;
+      float:right;
+      
+    }
+  .header-left p {
+    color: #b3aeb5;
+    font-size: 12px;
+    padding: 0 25px;
+    padding-top:40px;
+  }
+  .desc {
+    color: #c1c0c2;
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-top:80px;
+    line-height: 15px;
+    font-size:15px;
+    width: 600px;
+  } 
+  .header-left{
+    float:left;
+  }
+  .header-left a {
+      line-height: 60px;
+      float:left;
+      padding: 0 25px;
+      color: white;
+      display: block;
+    }
+  .header-right{
+      float:right;
+  }
+  .header-left a:hover{
+      background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .btnn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .instagramm {
+    background-color: #b3aeb5;
+  }
+  .facebookk {
+    background-color: #b3aeb5;
+  }
+  .youtubee {
+    background-color: #b3aeb5;
+  }
+  .btnn {
+    padding: 20px 24px;
+    color: white;
+    display: block;
+    opacity: 0.8;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 25px;
+    line-height: 10px;
+    float: right;
+  }
+    
+  .btnn:hover {
+    opacity: 1;
+  }
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 40px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  
+   /* Main EVENT Style */
+   .main{
+       background-image: url(media/4853433.jpg);
+   }
+
+   .desc-title{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.desc-h2{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
+
+/* buat 4 kolom */
+.main-column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+    
+.column {
+    width: 100%;
+    display: block;
+}
+
+
+.main-container {
+        padding: 0 16px;
+}
+
+
+
+
+/* buat effect shadow  */
+.main-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* padding kanan kiri container */
+.main-container {
+  padding: 0 16px;
+}
+
+/* Tinggi Gambar */
+.event-img{
+  height: 200px;
+}
+
+/* Clear floats */
+.main-container::after, .main-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*text mod */
+.main-head{
+    text-align: center;
+}
+.main-title {
+  color: grey;
+}
+
+/* tombol selengkapnya */
+.main-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.main-button:hover {
+  background-color: #555;
+}
+/*warna bintang */
+.checked {
+  color: orange;
+}
+
+
+  
+  
